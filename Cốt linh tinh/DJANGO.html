@@ -1,0 +1,52 @@
+<!-- KHỞI CHẠY TRANG WEB ĐẦU TIÊN
+TẠO PROJECT
+    1. khởi động priject: 
+        django-admin startproject site1(tên file)
+    2. Trỏ tới thư mục con:
+        cd site1
+    *Quay lại thư mục trước:
+        cd..
+KHỞI ĐỘNG WEB
+    3. Khởi động web mẫu:
+        python manage.py migrate
+    4. Tạo server ảo:
+        python manage.py runserver 8888(số nào đó)
+    - Tiếp theo gõ thêm /admin vào link trên browser
+    * Nhấn Ctrl + c để gõ lệnh
+    5. Tạo user:
+        python manage.py createsuperuser
+        Tạo tên, email, password
+    6. Chạy server ảo:
+        python manage.py runserver 8888
+ -->
+
+ <!-- TẠO MODULE VÀ TRANG CHỦ HOME ĐƠN GIẢN
+    1. Tạo module "home":
+        python manage.py startapp home
+    2. Tạo folder "Templates" (để tạo trang chủ) trong "home"
+    3. Tạo file "home.html" trong folder "Templates"
+    4. home.html: nhập mẫu html boilerplate
+    5. site1\site1\settings.py:
+        - Kéo xuống INSTALLED_APPS, thêm 'home'
+        (Để python hiểu trong site1 của mình có module là home)
+    6. site1\home\views.py:
+        def get_home(request):
+            return render(request,'home.html')
+        (Hàm trả về trang "home.html" tạo trong Templates)
+    7. site1\site1\urls.py:
+            from home import views as home
+
+            path('',home.get_home)
+    8. Refresh lại server:
+        python manage.py migrate
+    9. Khởi chạy lại server:
+         python manage.py runserver 8888
+* Nhớ lưu trước khi chạy, còn không thì save lại xong migrate và runserver lại
+  -->
+
+  <!-- TẠO VÀ LIÊN KẾT CÁC APP BẰNG URL
+    1. Tạo mục app:
+        python manage.py startapp app1
+    2. 
+
+   -->
