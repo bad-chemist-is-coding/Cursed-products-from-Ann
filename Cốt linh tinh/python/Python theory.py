@@ -1,7 +1,10 @@
 
-"""
-OUTPUT
-"""
+"""a = 1
+b = 3
+def sum(a,b):"""
+
+
+
 """CÁC LOẠI OUTPUT
 a = 'Hello World!'
 print(a)
@@ -205,3 +208,14 @@ for score in student_score:
     if score > highest_score:
         highest_score = score
 print(f"The highest score is {highest_score}")
+
+total = 0
+for number in range (1, 11, 3):
+    print(number)
+    total += number
+print(total)
+
+total2 = 0
+for number in range (0, 101, 2):
+    total2 += number
+print(total2)

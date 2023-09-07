@@ -1,5 +1,6 @@
 print("Project:\n\t TÍNH THỜI GIAN CHẠY DEADLINE")
 x = int(input("Bạn có bao nhiêu ngày để chạy deadline?\n"))
+print("Một ngày bạn dùng bao nhiêu tiếng")
 a = float(input("Để ngủ?\n"))
 b = float(input("Để ăn?\n"))
 c = float(input("Để di chuyển giữa các nơi?\n"))
@@ -17,7 +18,7 @@ v = str(o)
 q = str(y)
 z = str(x)
 
-print("Một ngày bạn dùng bao nhiêu tiếng")
+
 
 if n>24:
     print("Bạn sống kiểu gì mà thiếu tận "+u+" tiếng một ngày dữ vậy?!")
