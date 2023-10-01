@@ -194,7 +194,7 @@ random_item = random.randint(0,item_quantity-1) #Do list bắt đầu từ 0
 print(item[random_item])"""
 
 ###LOOP
-fruits = ["Apple","Peach","Pear"]
+"""fruits = ["Apple","Peach","Pear"]
 for fruit in fruits:
     print(fruit) # Gán giá trị 3 lần và in 3 lần
     print(fruit + "Candy")
@@ -218,4 +218,54 @@ print(total)
 total2 = 0
 for number in range (0, 101, 2):
     total2 += number
-print(total2)
+print(total2)"""
+
+'''x = range (100)
+print(x)
+
+list = ['hai','ba','tu','nam','3',True]
+for danhsach in list:
+    print(danhsach)
+"""
+data = [3,4,7,3,5,8]
+print('Nguyên có bao nhiêu cục kem socola?')
+for num in data:
+    print('💩'* num, num)
+#Hàm for là thực hiện lệnh bao nhiêu lần đ
+#Còn while là làm tới khi điều kiện sai
+
+i = 0
+while i < 100:
+    print (i,'Nguyên')
+    i += 1
+
+a = True
+b = False
+while (a or b): #a and b
+    print('haha')
+"""
+i = 0
+while i < 1000:
+    i += 2
+    print(i)'''
+
+#DEFINING FUNCTION
+def my_function():
+    print('Hello World')
+    print('No')
+my_function()
+
+#WHILE
+'''
+while sth_is_true:
+# Repeatively do sth
+while not sth_is_true"
+# Repeatively do sth until not sth_is_true anymore
+
+#MODULE
+from file import list (of that file)
+
+
+'''
+
+
