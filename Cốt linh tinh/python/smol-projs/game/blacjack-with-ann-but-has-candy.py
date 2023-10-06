@@ -35,7 +35,7 @@ def compare1(player_score, ann_score):
     elif player_score == ann_score:
         return "🟦 Bạn và Ánh cùng non, huề nhé 😘"
     elif player_score == 0:
-        return "🟦 Ghê, Xì trùm luôn ta, dữ luôn ha 🙂"
+        return "🟩 Ghê, Xì trùm luôn ta, dữ luôn ha 🙂"
     elif ann_score == 0:
         return "🟥 Gọi Ánh là Xì Trum hiền vì Ánh là Xì Trùm 😏"
     elif player_score < 22 and len(player_cards) == 5:
