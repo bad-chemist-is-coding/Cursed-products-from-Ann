@@ -1,5 +1,7 @@
 import random
 
+# Chơi giống trò Hangman
+
 period1 = ['HYDROGEN', 'HELIUM']
 period2 = ['LITHIUM', 'BERYLLIUM', 'BORON', 'CARBON', 'NITROGEN', 'OXYGEN', 'FLUORINE', 'NEON']
 period3 = ['SODIUM', 'MAGNESIUM', 'ALUMINIUM', 'SILICON', 'PHOSPHORUS', 'SULFUR', 'CHLORINE', 'ARGON']
