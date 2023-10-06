@@ -2,6 +2,7 @@ import random
 import time
 
 # Code này hơi lỏ do Ánh chưa quen tối ưu hoá code :))
+# Tại sao Xì Trùm thì tuổi = 0?? Do làm Trùm rồi thì tuổi tác đâu là vấn đề nữa :) (không phải do Ánh ko biết cách fix :D)
 
 input('♠ Nhấn Enter để bắt đầu đấu Xì Ách với Ánh ♣\n(nếu bạn không sợ thua 😼)')
 
