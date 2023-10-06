@@ -249,14 +249,31 @@ while i < 1000:
     i += 2
     print(i)'''
 
-#DEFINING FUNCTION
+'''#DEFINING FUNCTION
 def my_function():
     print('Hello World')
     print('No')
 my_function()
 
-#WHILE
+def greet_with_name(name):
+    print(f'Hello {name}')
+greet_with_name(input())
 '''
+'''
+import math
+
+def paint_calc(height, width, cover):
+    num_cans = (height * width)/cover
+    round_up_cans = math.ceil(num_cans) #làm tròn số lên
+    print(f'You will need {round_up_cans} can of paint')
+test_h = int(input()) #wall height
+test_w = int(input()) #wall width
+coverage = 5
+paint_calc(height=test_h, width=test_w, cover=coverage)
+'''
+
+'''
+#WHILE
 while sth_is_true:
 # Repeatively do sth
 while not sth_is_true"
@@ -264,8 +281,81 @@ while not sth_is_true"
 
 #MODULE
 from file import list (of that file)
-
-
 '''
+
+"""
+# DICTIONARY
+programming_dictionary = {
+    "Bug":"An error",
+    "Fucntion":"A piece of code"
+}
+# Retrieving items from dictionary
+print(programming_dictionary['Bug'])
+# Adding new items to dictionary
+programming_dictionary['Loop'] = 'Repeating'
+# Create an empty dictionary
+empty_dictionary = {}
+# # Wipe an existing dictionary
+# programming_dictionary = {}
+# print(programming_dictionary)
+# Editing an item in a dictionary
+programming_dictionary["Bug"] = "a creature disturbing your code"
+#Loop through a dictionary
+for key in programming_dictionary:
+    print(key)
+    print(programming_dictionary[key])
+
+capitals = {
+    'France': 'Paris',
+    'Germany': 'Berlin',
+}
+#Nesting a list in  dictionary: {Key: [list]}
+travel_log = {
+    "France": ['Paris', 'Lille', "Dijon"],
+    "Germany": ['Berlin', 'Hamburg', 'Stuttgart']
+}
+# Nesting dictionary in a dictionary: {Key2: {dict}}
+travel_log2 = {
+    "France": {'cities_visited': ['Paris', 'Lille', "Dijon"],
+               'total_visits': 12},
+    "Germany": {'cities_visited': ['Berlin', 'Hamburg', 'Stuttgart'],
+                'total_visited': 5}
+}
+# Nesting dictionaries in a list:
+#[{
+#   Key: [list],
+#   Key2: {Dict},
+#},
+#{
+#   Key: Value,
+#   Key2: Value,
+# }]
+travel_log3 = [
+    {
+        'country':'France',
+        'cities_visited': ['Paris', 'Lille', 'Dijon'],
+        'total_visits':12
+    },
+    {
+        'country': 'Germany',
+        'cities_visited': ['Berlin', 'Hamburg', 'Stuttgart'],
+        'total_visits':5
+    },
+]
+"""
+# FUNCTION WITH OUTPUTS
+'''
+def format_name(f_name, l_name):
+    if f_name == "" or l_name == "":
+        return 'You must input names'
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+
+    #print(f'{formated_f_name} {formated_l_name}')
+    return f"{formated_f_name} {formated_l_name}"
+
+print(format_name(input('Enter your first name:'), input('Enter your last name: ')))
+'''
+
 
 
