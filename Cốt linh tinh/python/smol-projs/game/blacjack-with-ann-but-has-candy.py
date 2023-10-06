@@ -157,12 +157,8 @@ while reset_game:
             ann_cards.append(deal_cards())
 
         while not game_over:
-            player_score = calculate_score(player_cards)
-            ann_score = calculate_score(ann_cards)
-            if player_score == 0:
-                player_score = 'XÌ TRÙM'
-            if ann_score == 0:
-                ann_score = 'XÌ TRÙM'
+            player_score = int(calculate_score(player_cards))
+            ann_score = int(calculate_score(ann_cards))
             print(f"\nÁnh spoil nhẹ lá bài đầu tiên của Ánh nè: {ann_cards[0]} 😉")
             print(f"Bài của bạn là: {player_cards}\nTuổi hiện tại của bạn là: {player_score}\n")
 
