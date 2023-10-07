@@ -42,7 +42,7 @@ while retry:
                 time.sleep(2)
                 most_handsome_guy(handsomeness)
                 time.sleep(2)
-        retry_whole_ask = input('Bạn muốn đo lại nhan sắc? (Y/N)\n').upper()
-        if retry_whole_ask == 'N':
-            retry = False
-            print('Hẹn mấy anh trai đẹp lần sau nhá! :>')
+                retry_whole_ask = input('Bạn muốn đo lại nhan sắc? (Y/N)\n').upper()
+                if retry_whole_ask == 'N':
+                    retry = False
+                    print('Hẹn mấy anh trai đẹp lần sau nhá! :>')
