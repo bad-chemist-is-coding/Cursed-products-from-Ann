@@ -55,7 +55,6 @@ while restart:
                 display[position] = char
 
         if letter not in word:
-
             lives -= 1
             print(f'Hehe, chữ {letter} không có nha, Ánh sắp cook rồi... :<')
             if lives == 0:
