@@ -19,7 +19,6 @@ def most_handsome_guy(handsome_record):
 retry = True
 while retry:
     handsomeness = {}
-
     name = input('Anh tên là gì?\n')
     retry_scale = True
     while retry_scale:
@@ -27,9 +26,11 @@ while retry:
         if handsome_score < 0:
             print('Ánh biết bạn đẹp trai mà, làm gì tự ti thế ba?\nSuy nghĩ lại lần nữa đi\n')
             time.sleep(1)
+            retry = True
         elif handsome_score > 100:
             print('Ánh biết là bạn đẹp trai, nhưng mà tự tin quá vậy ba :))\nChọn lại một cách trung thực đi.\n')
             time.sleep(1)
+            retry = True
         else:
             retry_scale = False
             handsomeness[name] = handsome_score

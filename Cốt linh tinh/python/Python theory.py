@@ -343,7 +343,7 @@ travel_log3 = [
     },
 ]
 """
-# FUNCTION WITH OUTPUTS
+### FUNCTION WITH OUTPUTS
 '''
 def format_name(f_name, l_name):
     if f_name == "" or l_name == "":
@@ -357,5 +357,29 @@ def format_name(f_name, l_name):
 print(format_name(input('Enter your first name:'), input('Enter your last name: ')))
 '''
 
+### SCOPE
+potion_strength = 1
+def drink_potion():
+    potion_strength = 2
+    print(potion_strength) #Local Scope => = 2
+drink_potion()
+print(potion_strength) # Global Scopre => = 1 (not defined in a function, but outside)
+# Function as if, while, for AND : with TAB don't count as local scope
+# Create a variable inside a function => Only usable in that fun.
+
+enemies = 1
+def increase_enermies():
+    global enemies # Recommend ít dùng do dễ tạo lỗi.
+    enemies += 1 # Nếu không khai báo global thì Python sẽ ráng tìm kiểu enemies = 0 bên trong fun thì mới tiếp tục
+                # được vì thế phải báo là có biến enemies bên ngoài
+    print(f'enenmies inside function: {enemies}')
+increase_enermies()
+print(f'enemies outiside function: {enemies}')
+
+#Global constants: hai báo biến Global tuy ít dùng nhưng có thể hiệu quả sử dụng khi muốn gọi một hằng số nào đó mình
+                # đặt trước đó và sẽ sử dụng lặp đi lặp lại nhiều => Không gây ra Bugs
+PI = 3.14 # Nên caplock để phân biệt
+URL = "https://something"
+INSTAGRAM = "@manganese_aluminum"
 
 
