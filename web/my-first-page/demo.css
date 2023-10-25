@@ -1,0 +1,160 @@
+body{
+    background-color: aquamarine;
+    color: brown;
+    font-size: 15px;
+
+}
+/* Change color seperately in HTML with CSS default */
+p{
+    color: rgb(33, 53, 119);
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(107, 107, 22);
+
+}
+div{
+    background: pink;
+    width: 200px;
+    height: 200px;
+
+    margin: 50px;
+    border-style: dashed;
+  border-color: yellow;
+    border-width: 10px;
+    
+}
+.top-sec{
+    background: rgb(228, 95, 95);
+    width: 500px;
+    height: 500px;
+
+
+    margin-top: 50px 10px 20px 30px;
+  
+    background-image: url(https://i.vgt.vn/2023/8/21/chu-cho-cheems-thanh-meme-noi-tieng-mang-xa-hoi-qua-doi-vi-ung-thu-phoi-khien-cdm-tiec-nuoi-e9d-6967661.png);
+
+    /* border-color: 20px solid green */
+    padding: 50px 100px 30px 20px;
+   
+    /* top bottom left right */
+}
+span{
+    color: pink;
+    font-size: 50px;
+
+}
+.bebe{
+    color: brown;
+    
+
+}
+
+#cute{
+   
+    background-image: url(/img/DSCF1286.JPG);
+ /* dùng thêm padding và margin nếu background size là cover để che hết cái khung */
+
+    background-size:contain;
+    background-position: center;
+
+
+}
+
+/* margin: empty space around my element
+border: around
+padding: empty space WITH background around my element
+
+All of these ADD on top of the width, height
+ */
+
+ img{
+    width: 200px;
+    /* Cách center một image: */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color:white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    line-height: 25px;
+font-style: italic;
+font-weight: lighter;
+/* Font-weight khác lệnh bold ở chỗ nó lấy
+đặc tính của chữ hiện tịa làm gốc mà thay đổi 
+tương đối theo nó*/
+/* có cả overline, underline */
+text-transform:     capitalize;
+/* tự mò thêm đi */
+
+}
+
+a:link{ 
+    color: purple;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+    font-size: 50px;
+}
+a:focus{
+    color: black;
+}
+/* link: link hiện mặc định
+visited: link đã được bấm
+hover: link có chuột rê qua
+active: link trong lúc mình bấm
+focus: link dùng tab để chuyển */
+    /* Nên theo order như vậy */
+
+ .bodytext div {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+
+
+ }
+ /* nếu ko có kết hợp với p thì nó chỉ
+ hiện full 1 div? */
+ /* Meaning: chọn p bên trong bodytext class */
+
+
+ /* float các div
+khi "clear:both;" thì sẽ chặn lệnh float tiếp theo */
+
+/* Mã màu Hex: #RRGGBB 0-->F */
+/* Mã màu RGB: rgb(.,.,.) 0-->255 */
+/* Mã RGB thêm alpha (độ trong suốt)
+rgba(.,.,.,.) alpha: 0-->1 */
+/* Mã hsl(a)(x,y,z,(t))
+x: hue 0 -->360 (color wheel)
+y: saturation 0% -->100%
+x: lightness 0%--> 100%
+t: alpha */
+
+/* <section> TO HƠN HEADER */
+
+ /* style > id > class > tag  */
+
+ /* !important */
+ /* Don't use ID and !important */
+
+ /* @media là để giúp thay đổi style chữ khi đạt đến giới hạn size min của nó */
+
+ /* Xem lại vh, wh, vmin, vmax */

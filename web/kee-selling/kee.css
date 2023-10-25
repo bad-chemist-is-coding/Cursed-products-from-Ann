@@ -1,0 +1,370 @@
+.call a:link{
+    text-decoration: none;
+    color: rgb(59, 116, 187);
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: rgb(193, 225, 255);
+
+}
+/* Background */
+.back1{
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.back2{
+    background-color: #b5eeff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+/* --- */
+.openning{
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 100px;
+    font-size: 20px;
+
+}
+.begin{
+    float: left;
+    border-radius: 20px;
+}
+.begin2{
+    float:right;
+    border-radius: 20px;
+}
+
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   ;
+    background: linear-gradient(to left, #B3F8FF,#FFF9B3);
+}
+h1{ 
+    color: rgb(241, 72, 72);
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(147, 249, 244,0.5);
+
+
+
+}
+.h1{
+    color: rgb(241, 72, 72);
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    
+
+}
+
+.h1 a:link{ 
+    color: rgb(228, 135, 35);
+    text-decoration: none;
+
+}
+
+h2{
+    color: rgb(31, 128, 226);
+    margin-right: 20px;
+}
+
+.notmid{
+    background-color: rgb(255, 233, 254);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-radius:20px;
+    padding: 10px;
+}
+
+.container{
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-top: 100px;
+    position: relative;
+
+ 
+
+}
+
+.deco{
+    background: rgb(178, 229, 253);
+    position: absolute;
+    width: 100px;
+    top: 0;
+    bottom: 100px;
+    left: 150px;
+    right: 10px;
+}
+.container2{
+    position: relative;
+}
+.deco2{
+    background: rgb(178, 229, 253);
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    bottom: 0px;
+    right: 150px;
+}
+.container2{
+    position: relative;
+}
+.deco3{
+    background: rgb(136, 198, 227);
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    top: 120px;
+    bottom: 0px;
+    right: 100px;
+}
+.container2{
+    position: relative;
+}
+.deco4{
+    background: rgb(136, 198, 227);
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    top: 0;
+    bottom: 100px;
+    left: 100px;
+    right: 10px;
+}
+
+
+.mid{
+    background-color: rgb(255, 255, 197);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-radius:20px;
+    padding: 10px;
+}
+.camthan{
+    text-align: center;
+    color: rgb(18, 119, 85);
+}
+.moigoi{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: white;
+    padding: 50px;
+    background: url(/img/20230711_175427.jpg);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loiket{
+    background-color: rgb(50, 128, 148);
+    color: white;
+    border-radius: 10px;
+    margin: 70px;
+    padding: 30px;
+    line-height: 30px;
+}
+.bolder{
+    font-weight: bolder;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.contact{
+    color: yellow;
+}
+
+.contact a:link{ 
+    color: yellow;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: yellowgreen;
+}
+
+.contact a:active{
+    color: rgb(251, 131, 131)
+}
+.contact a:focus{
+    color: white;
+}
+
+.baoduong {
+    /* list-style-image: url(); best with icon with suitable small size */
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: circle;
+}
+
+.baoduong li{
+    text-align: center;
+    list-style-position: inside;
+    background: rgb(255, 232, 236);
+    margin: 10px;
+}
+/* li trong .baoduong */
+
+ol{
+    list-style-type: decimal;
+}
+ul{
+    list-style-type: square;
+}
+
+.dungKee{
+    float: left;
+    margin-top: 0px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.button3 a:link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(98, 171, 193);
+    text-align: center;
+    background-color: #fff;
+    padding: 1em 2em;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px -2px rgb(50, 128, 148, 0.75);
+    transition: all ease-out 250ms;
+    font-weight: bolder;
+}
+.button3 a:hover{
+    transform: translateY(-1000px);
+    box-shadow: 0px 15px 8px -10px;
+}
+
+.button a:link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgb(74, 195, 232);
+    border: 2px solid;
+    border-color: rgb(74, 195, 232);
+    padding: 1em 2em;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    transition: all ease-in-out 3000ms;
+}
+
+.button a:hover{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(74, 195, 232);
+    text-align: center;
+    background: none;
+    border: 2px solid;
+    border-color: rgb(74, 195, 232);
+    padding: 1em 2em;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  
+    transform: translatex(1000px);
+}
+
+
+
+.button2 a:link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(98, 171, 193);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1em 2em;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    box-shadow: 0px 5px 10px -2px rgb(50, 128, 148, 0.75);
+    transition: all ease-out 250ms;
+}
+
+.button2 a:hover{
+    transform: translateY(1000px);
+    box-shadow: 0px 15px 8px -10px;
+}
+
+
+footer{
+    background-color: rgb(238, 255, 255);
+    padding: 40px;
+    margin-left: 0;
+    margin-right:0;
+    color: rgb(32, 203, 255)
+}
+
+.contact_link{
+    text-decoration: none;
+    color: rgb(68, 160, 160);
+}
+
+@media (min-width: 100px){
+    body{
+        font-size: 1rem;
+        line-height: 1.5;
+        background-color: rgb(210, 252, 255);
+    }
+  
+}
+
+@media (max-width: 600px){
+    body{
+        background-color: antiquewhite;
+        font-size:1.25rem;
+    }
+}
+
