@@ -34,9 +34,9 @@ class System:
             return "🟩 Ghê, Xì trùm luôn ta, dữ luôn ha 🙂"
         elif bot_score == 0:
             return "🟥 Gọi Ánh là Xì Trum hiền vì Ánh là Xì Trùm 😏"
-        elif bot_score < 21 and len(bot_cards) == 5:
+        elif bot_score < 22 and len(bot_cards) == 5:
             return f"🟥 Hehe, {bot_name} Ngũ linh, còn bạn ngủ luôn. 🤡"
-        elif player_score < 21 and len(player_cards) == 5:
+        elif player_score < 22 and len(player_cards) == 5:
             return "🟩 Cứ ngỡ là bạn ngủ luôn mà ai dè Ngũ linh hén. 😬"
         elif player_score < 16 and player_score != 0:
             return "🟥 Đã non rồi còn không rút thêm, bạn thua rồi 😋"
