@@ -52,7 +52,7 @@ class System:
     def compare_score_of_bots_for_result(self, female_house_name, bot_name, female_house_cards, bot_cards, bot_score,
                                          female_house_score):
         if bot_score > 21 and female_house_score > 21:
-            return f"🟦 {female_house_score} và {bot_name} đều quắc, và bạn cũng vậy, cả hai chạy kẹo."
+            return f"🟦 {female_house_score} và {bot_name} đều quắc, cả hai chạy kẹo."
         elif bot_score == female_house_score:
             return f"🟦 {bot_name} và {female_house_name} đều bằng nhau, cả hai chạy kẹo."
         elif bot_score == 0:
