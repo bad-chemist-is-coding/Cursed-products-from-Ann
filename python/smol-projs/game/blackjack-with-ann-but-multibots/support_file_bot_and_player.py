@@ -119,9 +119,9 @@ class Player:
             if bet > 200:
                 print('Bạn giỡn mặt hả, gì mà cược bằng cả tính mạng thế? Cho cơ hội làm lại đó 😑')
                 time.sleep(0.5)
-            elif bet < 1:
+            elif bet <= 1:
                 print("Haha, hài hước quá, chọn lại đi 😑")
-            elif bet > money:
+            elif bet >= money:
                 print(f'Máu đó! Bạn đã liều mình cược {bet} viên kẹo! Dù không đủ 😃')
                 self.bet = bet
                 alive = False
