@@ -56,6 +56,10 @@ while game_on:
             game_on = False
             score_board.game_over()
 
+    screen.onkey(snake.move_up, "W")
+    screen.onkey(snake.move_down, "S")
+    screen.onkey(snake.move_right, "D")
+    screen.onkey(snake.move_left, "A")
     screen.onkey(snake.move_up, "w")
     screen.onkey(snake.move_down, "s")
     screen.onkey(snake.move_right, "d")
