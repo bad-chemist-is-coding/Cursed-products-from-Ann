@@ -121,11 +121,11 @@ class Player:
                 time.sleep(0.5)
             elif bet <= 1:
                 print("Haha, hài hước quá, chọn lại đi 😑")
-            elif bet >= money:
+            elif bet > money:
                 print(f'Máu đó! Bạn đã liều mình cược {bet} viên kẹo! Dù không đủ 😃')
                 self.bet = bet
                 alive = False
-            elif bet < money:
+            elif bet <= money:
                 print(f'Bạn đã an toàn cược {bet} viên kẹo, nước đi an toàn đấy. 😊')
                 self.bet = bet
                 alive = False
