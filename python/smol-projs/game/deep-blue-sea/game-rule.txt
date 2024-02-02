@@ -1,0 +1,58 @@
+2 dices (1 - 3), 5 players (optional player amounts, real players amount, number of bots for remaining)
+1 Air marker (🔴), 1 submarine board, 12 blank chips
+32 chips (4 levels):
++ Lvl 1: 🖕 (0-3) (2 each)
++ Lvl 2: 🤘 (4-7) (2 each)
++ Lvl 3: 🤟 (8-11) (2 each)
++ Lvl 4: ☠️ (12-15) (2 each)
+
+Characters: 🙂🙁🤬🤮🥵
+
+25 | 24 | ... | 17 | 16
+7 | 🔴 | ... | 14 | 15
+6 | 5 | ... | 2 | 1
+        0
+
+🖕|🖕|🖕|🖕|🖕|🖕|🖕|🖕|🤘|🤘|🤘|🤘|🤘|🤘|🤘|🤘|
+🤟|🤟|🤟|🤟|🤟|🤟|🤟|🤟|💀|💀|💀|💀|💀|💀|💀|💀|
+                       😾
+*** GAME OBJECTIVE ***
+- Round amount optional (3 - 10)
+- Full air tank (🔴 at 25), Divers on submarine
+- Bring treasures back (getting back to the sub on time with treasures)
+
+*** TURN PROGRESSION ***
+- STEP 1: Reduce
++ 🔴 moves towards 0 by Chips # you carry
++ If running out (0 or <0), become the last turn
+
+- STEP 2: Turn back or not?
++ Turn-back-able when not having chips or having
++ Can decide when coming towards but not backwards (skip this step if backwards)
++ Roll dice when having TYPO ==> Forwards
+
+- STEP 3: Roll dice & move
++ If not having chips, move # = roll #
++ If having chips, move # = roll # - chips # having
+(If move # <= 0, no moving)
+(If move # >= Undersea Chip, stop at the last one)
+
+- STEP 4: Pick up or drop
++ ACTION 1: Do nothing
++ ACTION 2: Pick up Chip (NO FLIPPING), place blank chip
++ ACTION 3: Drop your chip if standing on the blank one
+
+*** ROUND CONCLUSION ***
+- Players made it to the sub reveals the Chip score
+- Players didn't make it back before the oxygen running out, lost everything and get back to the sub
++ Stack their chips (from lowest to highest level) next to the last chip in the line of Undersea chips
++ Max 3 chips/place, but treated as 1 chip when calculating air consumption and movement
+- Remove blank chips, slide together
+- Last player return to the Sub takes the first turn of the next round
+
+*** GAME CONCLUSION ***
+- Total points
+- If having tie, players with the most high-lvl Chips win.
+- If being unable to break the tie, end the game.
+
+
