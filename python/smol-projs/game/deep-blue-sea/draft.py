@@ -1,4 +1,5 @@
 import random
+import time
 
 REMAINING_OXYGEN = 25
 DEPTH = 32
@@ -46,14 +47,41 @@ def undersea_level(player_move):
 
 oxygen_level(0)
 undersea_level(0)
-dice = random.randint(2, 7)
-input("Enter to roll the dice")
-print(dice)
-
+player_1_treasure = 0
 while True:
-    oxy_location = int(input("Pick Oxygen consumption: "))
-    player_position = int(input("Pick a player position: "))
+    dice = random.randint(2, 6)
+# Reduce Oxygen
+    print("~~~~~~~~~~~~~")
+    print(f"You are having {player_1_treasure} treasures, you will be reduced {player_1_treasure} oxygen player.")
+# Turn back?
+    turn_back = input("You want to turn back to submarine? (Y/N): ").lower()
+    if turn_back == "y":
+        new_dice = dice * -1
+    else:
+        new_dice = dice
+
+# Roll the dice
+    input("Enter to roll the dice")
+    print("Số lắc ra (Có thể + hoặc -): " + f"{new_dice}")
+
+# Subtract the treasures
+    move = dice - player_1_treasure
+    print("Số di chuyển: " + f"{move}")
+    if move < 1:
+        print("You can't move")
+        move = 0
+    else:
+        pass
+    time.sleep(0.5)
+    print("----------------")
+    time.sleep(0.5)
+    oxy_location = player_1_treasure
+    player_position = new_dice
     REMAINING_OXYGEN = REMAINING_OXYGEN - oxy_location
     oxygen_level(25 - REMAINING_OXYGEN)
     DEPTH = DEPTH - player_position
     undersea_level(32 - DEPTH)
+    player_1_treasure += 1
+
+# input("What do you want to do?\nA. Do nothing\nB. Pick up the treasure\nC. Drop the treasure").lower()
+
